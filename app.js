@@ -10,9 +10,7 @@ function vec2(x, y) {
 }
 
 function z(cord) {
-
-    return {x: cord[0] + cord[2], y: cord[1] + cord[2]}
-
+    return {x: cord[0] + cord[2] / 2, y: cord[1] + cord[2] / 2}
 }
 
 function validateY(arr, i) {
